@@ -1,6 +1,6 @@
 ## 2D peak finding algorithm in O(n) worst case time
 
-Link: [StackOverflow](https://stackoverflow.com/questions/23120300/2d-peak-finding-algorithm-in-on-worst-case-time)
+Source: [StackOverflow](https://stackoverflow.com/questions/23120300/2d-peak-finding-algorithm-in-on-worst-case-time)
 
 A peak in a 2D array is a value such that all it's 4 neighbours are less than or equal to it, i.e. for
    
