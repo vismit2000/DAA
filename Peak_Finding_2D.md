@@ -6,12 +6,12 @@ A peak in a 2D array is a value such that all it's 4 neighbours are less than or
    
    `a[i][j] to be a local maximum`
 
-   a[i+1][j] <= a[i][j] 
-&& a[i-1][j] <= a[i][j]
-&& a[i][j+1] <= a[i][j]
-&& a[i+1][j-1] <= a[i][j]
+   a[i+1][j] <= a[i][j]
+   && a[i-1][j] <= a[i][j]
+   && a[i][j+1] <= a[i][j]
+   && a[i+1][j-1] <= a[i][j]
 
-Now given an NxN 2D array, find a peak in the array.
+Now given an `NxN` 2D array, find a peak in the array.
 
 ### Algorithm
 
@@ -28,7 +28,7 @@ For cases where the maximum element is in the central column - obvious.
 If it's not, we can step from that maximum to increasing elements and will definitely not cross the central row, so a peak 
 will definitely exist in the corresponding half.
 
-Why this is O(n):
+### Why this is O(n):
 
 Step #3 takes less than or equal to `max_dimension` iterations and `max_dimension` at least halves on every two algorithm steps. 
 This gives `n+n/2+n/4+...` which is **O(n)**. 
