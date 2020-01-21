@@ -7,8 +7,11 @@ A peak in a 2D array is a value such that all it's 4 neighbours are less than or
    `a[i][j] to be a local maximum`
 
    a[i+1][j] <= a[i][j]
+   
    && a[i-1][j] <= a[i][j]
+   
    && a[i][j+1] <= a[i][j]
+   
    && a[i+1][j-1] <= a[i][j]
 
 Now given an `NxN` 2D array, find a peak in the array.
