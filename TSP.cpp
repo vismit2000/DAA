@@ -12,7 +12,7 @@ int dist[10][10] = {
                     {25,34,10,0}
                    };
 
-int VISITED_ALL = (1<<n) - 1;
+int VISITED_ALL = (1 << n) - 1;
 
 int dp[16][4];
 
