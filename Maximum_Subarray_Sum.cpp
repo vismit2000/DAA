@@ -9,7 +9,7 @@ int MaxSubarraySum(vector <int> array)
     for(int i = 0; i < n; i++)
     {
         sum = max(array[k], sum + array[k]);
-        best - max(best, sum);
+        best = max(best, sum);
     }
     
     return best;
